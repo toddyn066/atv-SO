@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 50px 120px;
+    background: #1C1C1C;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* overflow: hidden; */
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: #000080;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 35px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul li{
+    list-style: none;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.links ul li a{
+    color: #00CED1;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.links ul li a:hover{
+    color: red;
+}
+
+.texto{
+    font-size: 25px;
+    text-align: justify;
+}
+
+#texto-1{
+    margin-bottom: 200px;
+}
+
+#texto-1 ul{
+    padding-left: 50px;
+    color:indianred
+}
+
+#proximo-1{
+    background: #000080;
+    color: whitesmoke;
+    display: block;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 90rem;
+}
+
+
+#anterior-1{
+    margin-right: 90rem;
+    padding-top: 5rem;
+}
+
+#anterior-1 a{
+    background: #000080;
+    display: block;
+    color: whitesmoke;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#imagem{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-top: 10rem;
+    padding-top: 10rem ;
+}
+
+.img{
+    height: 28vh;
+    filter: drop-shadow(5px 5px 5px rgba(93, 90, 90, 0.6)); 
+}
+
+.img:hover{
+    transform: translate(-5px, -10px);
+}
+
+#proximo-2{
+    background: #000080;
+    color: whitesmoke;
+    display: block;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 90rem;
+    font-size: 25px;
+    margin-bottom: 15rem;
+}
+
+#anterior-2{
+    margin-right: 90rem;
+    padding-top: 2rem;
+}
+
+#anterior-2 a{
+    background: #000080;
+    display: block;
+    color: whitesmoke;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+#texto-2{
+    width: 50rem;
+    height: 800px;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.topico{
+    color: #FA8072;
+    font-style: italic;
+}
+
+.topico::before{
+    content: "•   " ;
+    list-style: disc;
+}
+
+#texto-3{
+    width: 50rem;
+    height: 800px;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+h2{
+    font-size: 45px;
+    width: 50rem;
+    color: tan;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black; 
+    margin-bottom: 18px;
+}
+
+#proximo-3{
+    background: #000080;
+    color: whitesmoke;
+    display: block;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 35rem;
+    font-size: 25px;
+}
+
+#anterior-3{
+    margin-right: 90rem;
+    padding-top: 2rem;
+}
+
+#anterior-3 a{
+    background: #000080;
+    display: block;
+    color: whitesmoke;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.img4{
+    justify-content: center;
+    display: flex;
+}
+
+.img4 img{
+    height: 75vh;
+}
+
+#inicio{
+    justify-content: center;
+    display: flex;
+    margin-top: 45px;
+}
+
+#inicio a{
+    background: #000080;
+    display: block;
+    color: whitesmoke;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
